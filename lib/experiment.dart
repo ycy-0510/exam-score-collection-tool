@@ -8,7 +8,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:image_to_pdf_converter/image_to_pdf_converter.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:photo_view/photo_view.dart';
 
 class ExperimentApp extends StatelessWidget {
   const ExperimentApp({super.key});

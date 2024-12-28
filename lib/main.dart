@@ -663,14 +663,30 @@ class _ScoreCheckBodyState extends State<ScoreCheckBody> {
                               File csvFile =
                                   File('$dir/exam_score_${widget.examId}.csv');
                               await csvFile.writeAsString(csv);
-                              await FilePicker.platform.saveFile(
-                                  dialogTitle: 'Please select an output file:',
-                                  fileName: 'exam_score_${widget.examId}.csv',
-                                  initialDirectory: downloadDir,
-                                  allowedExtensions: ['csv'],
-                                  type: FileType.custom,
-                                  bytes: csvFile.readAsBytesSync());
+                              String? output = await FilePicker.platform
+                                  .saveFile(
+                                      dialogTitle:
+                                          'Please select an output file:',
+                                      fileName:
+                                          'exam_score_${widget.examId}.csv',
+                                      initialDirectory: downloadDir,
+                                      allowedExtensions: ['csv'],
+                                      type: FileType.custom,
+                                      bytes: csvFile.readAsBytesSync());
                               await csvFile.delete();
+                              if (output != null) {
+                                toastification.show(
+                                  type: ToastificationType.success,
+                                  style: ToastificationStyle.flatColored,
+                                  title: Text('Exported successfully'),
+                                  description: Text('File saved to $output'),
+                                  autoCloseDuration: const Duration(seconds: 5),
+                                  showProgressBar: false,
+                                );
+                                if (context.mounted) {
+                                  Navigator.pop(context);
+                                }
+                              }
                             },
                             icon: Icon(
                               Icons.download,
@@ -730,8 +746,8 @@ class _ScoreCheckBodyState extends State<ScoreCheckBody> {
                             height: 45,
                             child: ElevatedButton.icon(
                               onPressed: () async {
+                                scores[studentIdx].approved = false;
                                 if (studentIdx < scores.length - 1) {
-                                  scores[studentIdx].approved = false;
                                   setState(() {
                                     studentIdx++;
                                   });
@@ -767,8 +783,8 @@ class _ScoreCheckBodyState extends State<ScoreCheckBody> {
                             height: 45,
                             child: ElevatedButton.icon(
                               onPressed: () async {
+                                scores[studentIdx].approved = true;
                                 if (studentIdx < scores.length - 1) {
-                                  scores[studentIdx].approved = true;
                                   setState(() {
                                     studentIdx++;
                                   });
