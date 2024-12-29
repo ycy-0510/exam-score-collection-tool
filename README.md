@@ -34,8 +34,30 @@ This is an open-source project, you can download the source code fit your needs.
 3. Configure the Firebase project by running `flutterfire configure` (You need to create your own Firebase project)
 4. Run the app on your device by running `flutter run`
 
+## How to save money
+1. Compress the exam paper (You don't need to save the original exam paper)
+2. Limit the times of checking the exam paper (maybe once)
+3. Use chache to store the exam paper (You don't need to download the exam paper every time)
+
 ## How to contribute
 1. Fork the project
 2. Create a new branch
 3. Make your changes
 4. Create a pull request
+
+## Screenshots
+| Home Page | Submitting Page | Exams Page |
+| --- | --- | --- | --- |
+| ![Home page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/0img_3378.png) | ![Submi Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/1img_3379.png) | ![Exams Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/2img_3380.png) |
+| Score Checking Page | Scores Exporting Page | Exported File |
+| ![Scores Checing Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/3img_3381.jpg) | ![Scores Exporting](https://cloud-h29aki8sz-hack-club-bot.vercel.app/4img_3382.png) | ![Exported File](https://cloud-h29aki8sz-hack-club-bot.vercel.app/5img_3383.png) |
+<!-- ### Home Page
+![Home page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/0img_3378.png)
+### Submitting Page
+![Submi Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/1img_3379.png)
+### Exams Page
+![Exams Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/2img_3380.png)
+### Score Checking and Exporting Page
+![Scores Checing Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/3img_3381.jpg)
+![Scores Exporting](https://cloud-h29aki8sz-hack-club-bot.vercel.app/4img_3382.png)
+![Exported File](https://cloud-h29aki8sz-hack-club-bot.vercel.app/5img_3383.png) -->
