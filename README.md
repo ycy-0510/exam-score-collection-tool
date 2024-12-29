@@ -1,4 +1,6 @@
 # Exam Score Collection Tool
+![Exam Score Collection Tool](https://cloud-lhfbpjneg-hack-club-bot.vercel.app/0demostrate__instagram________.png)
+
 
 ## What it can help you to do
 It can help you to collect the exam scores of students quickly and accurately.
