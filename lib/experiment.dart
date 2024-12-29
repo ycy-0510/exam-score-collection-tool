@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:cunning_document_scanner/cunning_document_scanner.dart';
-import 'package:exam_score_collection_tool/main.dart';
+import 'package:exam_score_collection_tool/pages/photo_view_page.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
