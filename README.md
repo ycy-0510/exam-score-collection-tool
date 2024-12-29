@@ -46,18 +46,29 @@ This is an open-source project, you can download the source code fit your needs.
 4. Create a pull request
 
 ## Screenshots
-| Home Page | Submitting Page | Exams Page |
-| --- | --- | --- | --- |
-| ![Home page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/0img_3378.png) | ![Submi Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/1img_3379.png) | ![Exams Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/2img_3380.png) |
-| Score Checking Page | Scores Exporting Page | Exported File |
-| ![Scores Checing Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/3img_3381.jpg) | ![Scores Exporting](https://cloud-h29aki8sz-hack-club-bot.vercel.app/4img_3382.png) | ![Exported File](https://cloud-h29aki8sz-hack-club-bot.vercel.app/5img_3383.png) |
-<!-- ### Home Page
-![Home page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/0img_3378.png)
-### Submitting Page
-![Submi Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/1img_3379.png)
-### Exams Page
-![Exams Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/2img_3380.png)
-### Score Checking and Exporting Page
-![Scores Checing Page](https://cloud-h29aki8sz-hack-club-bot.vercel.app/3img_3381.jpg)
-![Scores Exporting](https://cloud-h29aki8sz-hack-club-bot.vercel.app/4img_3382.png)
-![Exported File](https://cloud-h29aki8sz-hack-club-bot.vercel.app/5img_3383.png) -->
+<table>
+    <thead>
+        <tr>
+            <th>Home Page</th>
+            <th>Submitting Page</th>
+            <th>Exams Page</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="https://cloud-h29aki8sz-hack-club-bot.vercel.app/0img_3378.png" alt="Home page" /></td>
+            <td><img src="https://cloud-h29aki8sz-hack-club-bot.vercel.app/1img_3379.png" alt="Submitting Page" /></td>
+            <td><img src="https://cloud-h29aki8sz-hack-club-bot.vercel.app/2img_3380.png" alt="Exams Page" /></td>
+        </tr>
+        <tr>
+            <th>Score Checking Page</th>
+            <th>Scores Exporting Page</th>
+            <th>Exported File</th>
+        </tr>
+        <tr>
+            <td><img src="https://cloud-h29aki8sz-hack-club-bot.vercel.app/3img_3381.jpg" alt="Scores Checking Page" /></td>
+            <td><img src="https://cloud-h29aki8sz-hack-club-bot.vercel.app/4img_3382.png" alt="Scores Exporting" /></td>
+            <td><img src="https://cloud-h29aki8sz-hack-club-bot.vercel.app/5img_3383.png" alt="Exported File" /></td>
+        </tr>
+    </tbody>
+</table>
